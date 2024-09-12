@@ -26,7 +26,8 @@ export const FileComparePage = () => {
 
     return (
         <div>
-            <h1 className="text-center pt-4 text-xl">File compare</h1>
+            <h1 className="text-center pt-4 text-xl font-bold text-blue-600">File compare</h1>
+            <h1 className="text-center text-sm">by Mátyás Dávid András</h1>
             <div className="flex flex-col md:flex-row p-8 w-full justify-center gap-8">
                 <FileField label={"File 1"} file={file1} setFile={setFile1} fileText={file1Text} setFileText={setFile1Text} />
                 <FileField label={"File 2"} file={file2} setFile={setFile2} fileText={file2Text} setFileText={setFile2Text} />
